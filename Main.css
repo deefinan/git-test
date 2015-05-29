@@ -1,0 +1,423 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family:Arial, Helvetica, sans-serif;
+}
+header{
+  margin: 0;
+  padding: 0;
+  background-color:#727A61;
+  width:1124pxpx;
+  height:100px;
+}
+#logo{
+  height:100px;
+  width:200px;
+  display:inline-block;
+}
+#logo p{
+  margin:0;
+  padding-top:20px;
+  padding-left:30px;
+  text-align: left;
+  padding-bottom:20px;
+  line-height: 30px;
+  font-size:200%;
+  color:white;
+}
+#slogan{
+  height:100%;
+  width:800px;
+  float:right;
+}
+#slogan p{
+  margin:0;
+  text-align:center;
+  padding-top:30px;
+  padding-left:60px;
+  text-align: left;
+  line-height: 40px;
+  font-size:40px;
+  color:white;
+}
+#transparent{
+  height:100px;
+  width:1124px;
+  position:relative;
+  left:0;
+  top:-100px;
+  display:inline-block;
+  z-index:1;
+}
+
+#body_style{
+  background-color:white;
+  width:1124px;
+  margin-left: auto;
+  margin-right: auto;
+  border:1px solid lightgrey;
+}
+#left-menu{
+  width:180px;
+  height:380px;
+  background-color:#B9BCB1;
+  float:left;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+#left-menu ul{
+  padding-bottom:20px;
+  padding-right:0px;
+  padding-left:20px;
+}
+#left-menu li{
+  list-style-type: none;
+  padding:8px;
+  font-size:28px;
+}
+
+a{
+  text-decoration:none;
+  padding: 0;
+  }
+#left-menu a{
+	color: white;
+} 
+  
+#grid{
+  padding: 0;
+  padding-left:20px;
+  list-style-type: none;
+  margin: 20px auto 0;
+  margin-top:0;
+  margin-bottom:10px;
+  width: 900px;
+  float:left;
+
+}
+#grid li{
+  float: left;
+  padding: 0;
+  margin: 0 5px 10px 5px;
+  float:left;
+  text-align: center;
+
+}
+#grid li a{
+  display: block;
+      color: #727A61;
+	  padding:3px;
+
+}
+#grid li img{
+  background-color: white;
+  padding: 7px; margin: 0;
+  border: 1px solid #58595b;
+  width: 410px;
+  height: 120px;
+  float:left;
+}
+article{
+  padding-left:20px;
+  padding-right:20px;
+  float:left;
+  clear:both;
+  width:420px;
+  color:grey;
+}
+article h1{
+  margin:0;
+}
+article p{
+	font-size: 18px;
+	margin-top: 5px;
+}
+aside h1{
+  color:grey;
+  text-align:center;
+}
+
+#aside-wrapper{
+  float:right;
+  width:540px;
+  border:5px solid #727A61;
+  margin-bottom:10px;
+  margin-right:40px;
+  padding-left: 30px;
+  padding-bottom: 10px;
+  padding-right: 30ps;
+  padding-top: 7px;
+  
+  	color: #727A61;
+}
+
+#aside-wrapper img{
+  float:left;
+}
+
+#reasons h1{
+	padding: 0;
+	margin: 0;
+	color:#727A61;
+
+}
+#reasons td{
+	padding: 5px;
+
+}
+footer{
+  clear:both;
+  margin-top:10px;
+  border-top:1px solid lightgrey;
+}
+
+footer p{
+  text-align:center;
+  color:grey;
+  font-size:80%;
+}
+#left-menu ul{
+  padding-bottom:20px;
+  padding-right:0px;
+  padding-left:20px;
+}
+#left-menu li{
+  list-style-type: none;
+  padding:8px;
+  font-size:28px;
+  color: white;
+}
+a{
+  text-decoration:none;
+  padding: 0;
+  }
+#left-menu a{
+	color: white;
+} 
+
+
+.top-menu{
+  width:auto;
+    float:left;
+}
+/*#top-menu a{
+  vertical-align:middle;
+}*/
+.top-menu ul{
+  /*display:block;*/
+  height:30px;
+}
+.top-menu li{
+  padding:5px;
+  display:inline;
+  /*background-color:#B9BCB1;*/
+  vertical-align:middle;
+
+}
+.top-menu a{
+  color:grey;
+}
+.top-menu li:before{
+  content:" | ";
+}
+#top-menu li:first-child:before{
+  content:none;
+}
+
+.Gallery{
+	margin-left:30px;
+	margin-top: 0px;
+	display:inline-block;
+  width:600px;
+  float:left;
+}
+.Gallery img{
+	height: 125px;
+	width: 210px;
+}
+.Gallery li{
+	text-align: center;
+}
+#easidine{
+	width:600px;
+	margin-top:2px;
+	margin-left:20px;
+	margin-bottom: 0px;
+	float:left;
+	color:grey;
+	font-size:120%;
+}
+
+#easidine p{
+
+	
+	/*font-size:150%;*/
+}
+#buttons{
+	display: inline-table;
+	width: 100px;
+	float: right;
+}
+hr{
+clear:both;
+margin-bottom: 10px;
+}
+.largerText{
+	background-color: red;
+	color: white;
+	height: 40px;
+	width: 40px;
+	font-size:  25px;
+	margin-top: 10px;
+	
+}
+.default{
+	background-color: #727A61;
+	color: white;
+	height: 40px;
+	width: 40px;
+	font-size:  25px;
+	margin-top: 10px;
+}	
+/*------------------------------
+Product CSS*/
+figure{
+	display: inline;
+}
+figure img{
+	width: 55px;
+	height: 55px;
+	float: left;
+	margin-bottom: 20px;
+	border: 1px solid brown;
+}
+figcaption{
+	width: 100px;
+	display: inline;
+	float: right;
+	/*padding-left: 10px;*/
+}
+#aside-reasonsColumn{
+	padding: 0;
+  padding-left:20px;
+  padding-right: 20px;
+  list-style-type: none;
+  margin: 20px auto 0;
+  margin-top:0;
+  margin-bottom:10px;
+  margin-right: 10px;
+  width: 180px;
+  float:right;
+  border: 1px solid grey;
+}
+
+#reasonsColumn img{
+	height: 75px;
+	
+}
+#reasonsColumn li {
+  	display: block;
+      color: #727A61;
+	  padding:3px;
+}
+.blurb{
+color: grey;
+font-size: 20px;}
+/*-------------------------
+Bedroom*/
+
+.GalleryB{
+	margin-left:30px;
+	margin-top: 0px;
+	display:inline-block;
+  width:600px;
+  float:left;
+}
+.GalleryB img{
+	height: 210px;
+	width: 125px;
+	padding-right: 70px;
+}
+.GalleryB li{
+	text-align: center;
+}
+/* --------------------------
+About*/
+.intro{
+width:800px;
+	margin-top:2px;
+	margin-left:20px;
+	margin-right: 20px;
+	margin-bottom: 0px;
+	float:left;
+	color:grey;
+	font-size:120%;
+
+}
+#form{
+float: left;
+margin-left: 20px;
+margin-top: 0px;
+}
+#form input[type="text"] {
+  border: 1px dotted #999;
+  border-radius: 2px;
+  background: #eeeeee;
+  margin: 5px;
+  font-size: 20px;
+  -webkit-appearance: none;
+  }
+  #form textarea{
+  border: 1px dotted #999;
+  border-radius: 2px;
+  background: #eeeeee;
+  margin: 5px;
+  font-size: 20px;
+  -webkit-appearance: none;
+  }
+  #form select{
+  border: 1px dotted #999;
+  border-radius: 2px;
+  background: #eeeeee;
+  margin: 5px;
+  font-size: 20px;
+  color: grey}
+
+#form input[type="submit"]{
+    height: 40px;
+	color: white;
+	background: #727A61;
+	margin: 5px;
+	margin-bottom: 25px;
+	width: 150px;
+	font-size: 25px;
+	
+} 
+#agent_table{
+	width:600px;
+	margin-top:2px;
+	margin-left:20px;
+	margin-bottom: 0px;
+	float:left;
+
+	font-size:120%;
+
+}
+#agents td{
+//	border:1px solid lightgrey;
+//	color:grey;
+}
+#agents tr{
+	margin-bottom: 100px;}
+	
+#table_header {
+	font-size: 28px;
+	padding-bottom: 10px;
+    }
+#left-menu ul ul li a{
+font-size: 90%;
+}
+
+
+
+

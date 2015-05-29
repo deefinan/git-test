@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>	Glenwood Furniture</title> <!--requirement 3-->
+	<meta charset="UTF-8">  <!--requirement 12-->
+	<script type="text/JavaScript">
+	function setActiveStyleSheet(title){
+	var i, a, main
+	for(i=0; (a = document.getElementsByTagName("link")[i]); i++){//get link tag
+	if(a.getAttribute("rel").indexOf("style")!= -1 && a.getAttribute("title")){ //is there a stylesheet and a title attribute present
+		a.disabled =true;//disable the link we just foun
+		if(a.getAttribute("title")== title) //But if it is the one we wnat to switch to then
+		a.disabled = false;//enable it agan
+	}}}
+	</script>
+	<link rel = "stylesheet" type = "text/css" href = "Main.css" title = "Main">
+	<link rel = "alternate stylesheet" type = "text/css" href = "Style2.css" title = "Style2">
+
+		<style type="text/css">
+		}
+		fieldset{
+			border: none;
+		}
+		label{
+			display: block;
+		}
+		input{
+			width: 300px;
+			margin-bottom: 10px;
+			font-size: 24px;
+		}
+		textarea{
+			min-height: 200px;
+			min-width: 300px;
+		}
+		.col1{
+			width: 280px;
+			float: left;
+			padding: 10px 20px 20px 40px;
+		}
+		.col2{
+			width: 400px;
+			float: left;
+			padding-left: 20px;
+			padding-top: 20px;
+		}
+		.col2-1{
+			width: 260px;
+			float: right;
+		}
+		.form-test{
+			margin: 0;
+			padding: 0;
+			width: 100px;
+			height: 100px;
+			background: black;
+			float: left;
+			display: inline;
+		}
+		#postcode,
+		#email{
+			margin-bottom: 40px;
+		}
+		.col1 h1{
+			margin: 0;
+			width: 280px;
+			border: none;
+		}
+	</style>
+
+
+</head>
+
+<body>
+  <div id="body_style">
+ 
+      <header>  <!--start of top banner-->
+      <div id="logo">
+        <p>Glenwood Furniture</p>
+      </div>
+      <div id="slogan">
+        <p>Furniture for Everyday Living</p>
+      </div>
+    </header>  <!-- end of top banner-->
+	
+    <nav class ="top-menu">
+      <ul>
+	  	<li><a href="Dining.html">Browse our Collections</a></li>
+        <li><a href="Dining.html">Kitchen/Dining</a></li>
+        <li><a href="Bedroom.html">Bedroom Furniture</a></li>
+        <li><a href="Office.html">Occassional</a></li>
+		<li><a href="Contract.html">Contract Furniture</a></li>		
+      </ul>
+    </nav>
+	 <div id = "buttons"  >
+	 <button class="default"><a href=""onclick="setActiveStyleSheet('Style2');return false;">A-</a></button>
+	 <button class="largerText"><a href=""onclick="setActiveStyleSheet('Main');return false;">A+</a></button>	 
+	 </div>
+	<hr>
+
+    <nav id="left-menu">
+      <ul>
+		<li><a href="index.html">Home</a></li>  <!--requirement 10-->
+        <li><a href="AboutUs.html">About Us</a></li>
+        <li><a href="Retail.html">Retail</a></li>
+        <li><a href="Contract.html">Contract</a></li>
+        <li><a href="Brochure.html">Brochure</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+		<li><a href= "AssignmentRequirements.html">Extra</a></li>
+      </ul>
+    </nav>
+
+
+
+
+
+<section class="col1"> 
+	<h1>Contact Us</h1>
+	<p><span class="errors">Please Note:</span> We do not sell direct to the general public, if you would like pricing information, or to view our furniture, please <a href="/contact/?type=stockist">click here to request details of your nearest stockist.</a></p>
+				<p>To contact us, please fill in the contact form.</p>
+				<p>Corndell Quality Furniture Limited<br>
+				Windrush Park Road<br>
+				Witney<br>
+				Oxfordshire<br>
+				OX29 7DZ<br>
+				UK<br>
+				Phone: <strong>+44 (0) 1993 776545</strong></p>
+				<h4>Registered Office address</h4>
+				<p class="smaller">Corndell Quality Furniture Limited<br>
+				Windrush Park Road<br>
+				Witney<br>
+				Oxfordshire<br>
+				OX29 7DZ<br>
+				Registered in England: 09094307</p>
+</section>
+
+
+
+
+<div class="form-test">
+<form></form>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    <footer>
+		<address> 
+			<p>For more information contact 
+			<a href = "mailto:info@glenwoodfurniture.ie">Glenwood email</a></p>
+        <p>All content copyright &copy; Glenwood Furniture Limited 2015</p>
+		</address>
+    </footer>
+
+  </div>
+</body>
+
+</html>
